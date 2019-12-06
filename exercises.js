@@ -44,12 +44,12 @@ var bango2 = 2;
  * Console.log `sum` to test your code.
 */
 
-function add(bango1,bango2) {
-	return bango1 + bango2;
+function add(num1,num2) {
+	return num1 + num2
 }
 
-var add() = sum;
-console.log('sum');
+var sum = add(bango1,bango2)
+console.log(sum);
 
 /*
  * #3
@@ -65,13 +65,12 @@ console.log('sum');
  * Console.log `difference` to test your code.
 */ 
 
-function subtract(bango1,bango2) {
-	return bango1 + bango2;
+function subtract(num1,num2) {
+	return num1 - num2
 }
 
-var subtract() = difference;
-console.log('difference');
-
+var difference = subtract(bango1,bango2)
+console.log(difference);
 
 
 /*
@@ -88,13 +87,12 @@ console.log('difference');
  * Console.log `product` to test your code.
 */
 
-function multiply(bango1,bango2) {
-	return bango1 + bango2;
+function multiply(num1,num2) {
+	return num1 * num2
 }
 
-var multiply() = product;
-console.log('product');
-
+var quotient = multiply(bango1,bango2)
+console.log(quotient);
 
 
 /*
@@ -111,13 +109,13 @@ console.log('product');
  * Console.log `quotient` to test your code.
 */
 
-function divide(bango1,bango2) {
-	return bango1 + bango2;
+
+function divide(num1,num2) {
+	return num1/num2
 }
 
-var divide() = quotient;
-console.log('quotient');
-
+var quotient = divide(bango1,bango2)
+console.log(divide);
 
 
 /*
@@ -133,9 +131,9 @@ console.log('quotient');
 */
 
 function checkSum(x) {
-	return Mariah Carey has been married 'x' amount of times.;
+	return ('Mariah Carey has been married ' + sum + ' amount of times.')
 }
-
+console.log(checkSum(sum));
 
 /*
  * #7
@@ -149,9 +147,11 @@ function checkSum(x) {
  * This function will return the string "Last night I dreamt that I ate `x` Taco Bell soft tacos."  Where `x` is the value when you invoke the function. Invoke this function using the variable `difference`.
  * Console.log your results.
 */ 
+
 function checkDifference(x) {
-	return Last night I dreamt that I ate `x` Taco Bell soft tacos.
+	return ('Last night I dreamt that I ate ' + difference + ' Taco Bell soft tacos.')
 }
+console.log(checkDifference(difference));
 
 
 /*
@@ -164,9 +164,13 @@ function checkDifference(x) {
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
+
+
 function checkProduct() {
-	return 1
+	return sum * difference;
 }
+console.log(checkProduct ());
+
 
 /*
  * #9
@@ -180,8 +184,9 @@ function checkProduct() {
 */
 
 function checkQuotient() {
-	return 1
+	return product
 }
+console.log(checkQuotient());
 
 /*
  * #10
@@ -203,14 +208,14 @@ function checkQuotient() {
  * Console.log your result.
 */ 
 
-var bango3 = 3
-var bango4 = 4
-var bango5 = 5
+var bango3 = 7
+var bango4 = 6
+var bango5 = 8
 
-function addThenSubtract(bango3,bango4,bango5) {
-	return 
+function addThenSubtract(num1,num2,num3) {
+	return num1 + num2 - num3;
 }
-
+console.log(addThenSubtract());
 
 /*
  * #11
