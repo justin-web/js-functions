@@ -26,7 +26,8 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
-
+var bango1 = 1;
+var bango2 = 2;
 
 /*
  * #2
@@ -43,8 +44,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `sum` to test your code.
 */
 
+function add(bango1,bango2) {
+	return bango1 + bango2;
+}
 
-
+var add() = sum;
+console.log('sum');
 
 /*
  * #3
@@ -60,8 +65,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `difference` to test your code.
 */ 
 
+function subtract(bango1,bango2) {
+	return bango1 + bango2;
+}
 
-
+var subtract() = difference;
+console.log('difference');
 
 
 
@@ -79,6 +88,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `product` to test your code.
 */
 
+function multiply(bango1,bango2) {
+	return bango1 + bango2;
+}
+
+var multiply() = product;
+console.log('product');
 
 
 
@@ -96,6 +111,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `quotient` to test your code.
 */
 
+function divide(bango1,bango2) {
+	return bango1 + bango2;
+}
+
+var divide() = quotient;
+console.log('quotient');
+
 
 
 /*
@@ -110,8 +132,9 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */
 
-
-
+function checkSum(x) {
+	return Mariah Carey has been married 'x' amount of times.;
+}
 
 
 /*
@@ -126,7 +149,9 @@ console.log(testGreeting); // printing the output value of the function.
  * This function will return the string "Last night I dreamt that I ate `x` Taco Bell soft tacos."  Where `x` is the value when you invoke the function. Invoke this function using the variable `difference`.
  * Console.log your results.
 */ 
-
+function checkDifference(x) {
+	return Last night I dreamt that I ate `x` Taco Bell soft tacos.
+}
 
 
 /*
@@ -139,7 +164,9 @@ console.log(testGreeting); // printing the output value of the function.
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
-
+function checkProduct() {
+	return 1
+}
 
 /*
  * #9
@@ -152,7 +179,9 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.  
 */
 
-
+function checkQuotient() {
+	return 1
+}
 
 /*
  * #10
@@ -174,7 +203,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */ 
 
+var bango3 = 3
+var bango4 = 4
+var bango5 = 5
 
+function addThenSubtract(bango3,bango4,bango5) {
+	return 
+}
 
 
 /*
@@ -192,7 +227,7 @@ console.log(testGreeting); // printing the output value of the function.
 */ 
 
 
-}
+
 
 
 /*
